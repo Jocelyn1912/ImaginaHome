@@ -51,7 +51,6 @@ ul.menu li a:hover {
 }
 
 ul.menu li a:focus { outline: none; }
-
 /************************************************************************************************
 Estilos home
 ************************************************************************************************/
@@ -60,6 +59,8 @@ Estilos home
   height: auto;
 }
 
+
+/*Sección desafío, primera sección*/
 #section_1 .subSection1 {
   background-image: url(https://d3jqq3cy6vtj1r.cloudfront.net/Coordinador/DesafioFlash/imgPlatagorma/Fondos/fondo.Seccion1.png);
   padding-top: 80px;
@@ -73,10 +74,9 @@ Estilos home
 .lineaIzquierda{
   border-left: solid 1px #fff;
   margin-left: 5%!importan;
-  
 }
 
-.logoCoordinador{
+.logoBDP{
   margin-left: 5%!important;
 }
 
@@ -84,9 +84,10 @@ Estilos home
   padding-right: 10%;
 margin-top: 5%;
 }
+
 .btnParticipa:link, .btnParticipa:visited, .btnParticipa:active, a {
-    text-decoration:none;
-    color:#fff;
+  text-decoration:none;
+  color:#fff;
 }
 
 .btnParticipa{
@@ -128,17 +129,20 @@ margin-top: 5%;
   color:#E04646;
 }
 
-
 .subTituloSeccion12 {
   color: #E04646;
 }
 
 .contenedorParrafoSeccion1 hr {
-    width: 150px;
-    display: inline-block;
+  width: 150px;
+  display: inline-block;
 }
 
+.contenedorRayos .col-xs-6, .contenedorRayos .col-md-4{
+  vertical-align:top;
+}
 
+/**/
 #section_2 {
   background-color: #fff;
   padding-top: 44px;
@@ -574,11 +578,6 @@ h2.linea2:before {
 
 .respuestasInactivas{
   display: none;
-}
-
-/* Escondiendo log Ing*/
-.loginbox {
-    display: none;
 }
 
 /*Seteando el row de bootstrap*/
