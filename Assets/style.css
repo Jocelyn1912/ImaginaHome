@@ -123,6 +123,7 @@ margin-top: 5%;
 .subSection12{
   background-color: #fff;
   padding: 0 10%;
+  text-align:center;
 }
 
 .colorRojo{
@@ -142,12 +143,6 @@ margin-top: 5%;
   vertical-align:top;
 }
 
-/**/
-#section_2 {
-  background-color: #fff;
-  padding-top: 44px;
-}
-
 .contenedorRayos{
   text-align: center;
   padding: 2% 0;
@@ -157,6 +152,12 @@ margin-top: 5%;
   font-size: 18px;
   font-family: 'Tajawal', sans-serif;
   text-align: center;
+}
+
+/*Segunda sección*/
+#section_2 {
+  background-color: #fff;
+  padding-top: 44px;
 }
 
 .tituloSlider {
@@ -659,8 +660,6 @@ color:#fff;
 }
 
 
-/*Estilos banner*/
-
 /*Estilos generales*/
 * {
   margin: 0;
@@ -677,6 +676,8 @@ ul, ol {
 body {
   font-family: Open sans;
 }
+
+/*Estilos banner*/
 
 /* Contenedor de las diapositivas*/
 .slideshow {
