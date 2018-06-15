@@ -62,7 +62,8 @@ Estilos home
 
 /*Sección desafío, primera sección*/
 #section_1 .subSection1 {
-  background-image: url(https://d3jqq3cy6vtj1r.cloudfront.net/Coordinador/DesafioFlash/imgPlatagorma/Fondos/fondo.Seccion1.png);
+ /* background-image: url(https://d3jqq3cy6vtj1r.cloudfront.net/Coordinador/DesafioFlash/imgPlatagorma/Fondos/fondo.Seccion1.png);*/
+background-color:#4A558F;
   padding-top: 80px;
   color:#fff;
 }
@@ -78,11 +79,13 @@ Estilos home
 
 .logoBDP{
   margin-left: 5%!important;
+width:80%;
 }
 
 .logoDesafio{
-  padding-right: 10%;
-margin-top: 5%;
+  padding-right: 0%;
+
+width:80%;
 }
 
 .btnParticipa:link, .btnParticipa:visited, .btnParticipa:active, a {
@@ -94,7 +97,6 @@ margin-top: 5%;
   font-size:20px;
   background-color:#2CAEA3;
   padding:12px 37px;
-  font-family: 'Abel', sans-serif;
 }
 
 .contenedorBTNParticipa{
@@ -109,13 +111,11 @@ margin-top: 5%;
 
 .parrafoSeccion {
   font-size: 20px;
-  font-family: 'Tajawal', sans-serif;
   text-align: center;
 }
 
 .titulos {
   font-size: 35px;
-  font-family: 'Abel', sans-serif;
   padding: 0;
   text-align: center;
 }
@@ -123,7 +123,6 @@ margin-top: 5%;
 .subSection12{
   background-color: #fff;
   padding: 0 10%;
-  text-align:center;
 }
 
 .colorRojo{
@@ -139,10 +138,6 @@ margin-top: 5%;
   display: inline-block;
 }
 
-.contenedorRayos .col-xs-6, .contenedorRayos .col-md-4{
-  vertical-align:top;
-}
-
 .contenedorRayos{
   text-align: center;
   padding: 2% 0;
@@ -150,8 +145,22 @@ margin-top: 5%;
 
 .textoMayusculas {
   font-size: 18px;
-  font-family: 'Tajawal', sans-serif;
   text-align: center;
+}
+
+/*Escondiendo Login*/
+.enterprise_login_widget{
+display:none;
+}
+
+/*Seteando el row de bootstrap*/
+.row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+.editRow {
+  padding: 58px 1% 2% 1%;
 }
 
 /*Segunda sección*/
@@ -162,15 +171,100 @@ margin-top: 5%;
 
 .tituloSlider {
   font-size: 35px;
-  font-family: 'Abel', sans-serif;
   padding: 0;
 }
 
 .parrafoSlider{
   font-size: 20px;
-  font-family: 'Tajawal', sans-serif;
 }
 
+/*Estilos banner*/
+
+/* Contenedor de las diapositivas*/
+.slideshow {
+  width: 100%;
+  position: relative;
+}
+
+.slider li, ul {
+  width: 100%;
+}
+
+.slider li {
+  overflow: hidden;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.slider li img {
+  width: 100%;
+}
+
+/* Texto de las diapositivas*/
+.slider .caption {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding: 15px 50px 15px 100px;
+  /*Centrar*/
+  display: flex;
+  /*Posisionando textos en columnas*/
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  /*z-index: 1;*/
+}
+
+.pagination li {
+  font-size: 20px;
+  margin: 2px 5px;
+  color: #858585;
+  cursor: pointer;
+}
+
+/*Flechas*/
+.left, .right {
+  position: absolute;
+  top: 40%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  color:#FAAE34;
+  font-size: 45px;
+  cursor: pointer;
+  /*z-index: 2;*/
+  background: rgba(0,0,0,0.2);
+}
+
+.left:hover, .right:hover {
+  background: rgba(0,0,0,0.7);
+}
+
+.left {
+  left: 30px;
+}
+
+.right {
+  right: 30px;
+}
+
+.img-responsive{
+    display: inline-block !important;
+}
+
+.textoCaption {
+  background: rgba(0,0,0,0.7);
+  width: 75%;
+  display: inline-block;
+  padding: .5% 2%;
+}
+
+/*Sección cómo participar, tercera sección*/
 #section_3 {
   background-color: #fff;
 }
@@ -307,6 +401,7 @@ margin-top: 5%;
   width:100%;
 }
 
+/*Sección etapas, cuarta sección*/
 #section_4 {
   background-image: url(https://d3jqq3cy6vtj1r.cloudfront.net/Coordinador/DesafioFlash/imgPlatagorma/Fondos/fondoVerde4taSeccion.png);
 }
@@ -329,7 +424,7 @@ margin-top: 5%;
 }
 
 .parrafoEtapas{
-  font-size: 25px;
+  font-size: 20px;
   font-family: 'Abel', sans-serif;
   margin:0;
 }
@@ -363,6 +458,7 @@ margin-top: 5%;
   background-color: #4A5493;
 }
 
+/*Sección Talleres, quinta sección*/
 .contenedorSection5 {
   background-color:#2CAEA3;
   background-image: url(https://d3jqq3cy6vtj1r.cloudfront.net/Coordinador/DesafioFlash/imgPlatagorma/Fondos/Fondo2Amarillo.png);
@@ -370,8 +466,8 @@ margin-top: 5%;
   background-position: center top;
   padding-top:10%;
   color:#fff;
-  padding-bottom:170px;
 }
+
 
 .parrafoTaller{
   padding: 30px 0px;
@@ -412,8 +508,6 @@ h2.linea:before {
   text-align: left;
 }
 
-
-
 #section_5 .formularioDatosTaller .correoDesafio{
   color: #4A5493!important;
   text-decoration: underline!important;
@@ -425,8 +519,8 @@ h2.linea:before {
 }
 
 .alignContent .respuesta{
- padding-left: 5%;
- padding-top: 5px;
+  padding-left: 5%;
+  padding-top: 5px;
 }
 
 .alignContent{
@@ -439,14 +533,21 @@ h2.linea:before {
   width:50%;
 }
 
-.contenedorSection6{
-  background-image: url(https://d3jqq3cy6vtj1r.cloudfront.net/Coordinador/DesafioFlash/imgPlatagorma/Fondos/fondo_00azulCompleto.png);
+.ContinuacioncontenedorSection5{
+  background-image: url(https://d3jqq3cy6vtj1r.cloudfront.net/Coordinador/DesafioFlash/imgPlatagorma/Fondos/fondo_00azulArriba.png);
   background-size: cover;
   background-position: center top;
-  margin-top: -230px;
-  padding-top: 140px;
+  height: 150px;
+  margin-top: -45px;
+}
+
+/*Sección premios, sexta sección*/
+.contenedorSection6{
+  background-image: url(https://d3jqq3cy6vtj1r.cloudfront.net/Coordinador/DesafioFlash/imgPlatagorma/Fondos/fondo_00azulSinOndaso.png);
+  background-size: cover;
+  background-position: center top;
   color:#fff;
-  padding-bottom: 400px;
+padding-bottom:20px;
 }
 
 #section_6 .contenedorCadaPremio{
@@ -457,7 +558,7 @@ h2.linea:before {
 }
 
 #section_6 .titulos{
-  padding-top: 70px;
+  padding-top: 50px;
 }
 
 #section_6 hr{
@@ -482,7 +583,7 @@ margin:0!important;
   font-size: 30px;
   color: #fff;
   background-color:#FEC01F;
-  padding: 5px 250px;
+  padding: 10px 250px;
 margin-top:1%;
 }
 
@@ -503,23 +604,25 @@ margin-top:1%;
   padding-bottom: 1%;
 }
 
-.comtinuacionContenedor6 img{
-  width:100%;
-  height:auto;
-  background-color:#2CAEA3;
+.comtinuacionContenedor6{
+  border-top: solid 45px #3A4380 ;
+  background-image: url(https://d3jqq3cy6vtj1r.cloudfront.net/Coordinador/DesafioFlash/imgPlatagorma/Fondos/fondo_00azulOndaInferior.png);
+  background-size: cover;
+  background-position: center top;
+  height: 170px;
 }
 
+/*Sección FAQ, septima sección*/
 #section_7 {
-   margin-top: -370px;
-  background-color: #3A4380;
-  background-image: url(https://d3jqq3cy6vtj1r.cloudfront.net/Coordinador/DesafioFlash/imgPlatagorma/Fondos/preguntasFrecuentesFondo.png);
+  background-color: #2CAEA3;
+  /*background-image: url(https://d3jqq3cy6vtj1r.cloudfront.net/Coordinador/DesafioFlash/imgPlatagorma/Fondos/preguntasFrecuentesFondo.png);*/
   background-size: cover;
   background-position: center top;
   color: #fff;
 }
 
 .contenedorPreguntasFrecuentes{
-  margin-top:;
+  margin-top: -30px;
 }
 
 .editRowPreguntasFrecuentes{
@@ -581,16 +684,15 @@ h2.linea2:before {
   display: none;
 }
 
-/*Seteando el row de bootstrap*/
-.row {
-    margin-right: 0 !important;
-    margin-left: 0 !important;
+/*FAQS*/
+.faq_question {
+  cursor: pointer;
 }
 
-.editRow {
-  padding: 58px 1% 2% 1%;
+.faq_answer_container {
+  height: 0px;
+  overflow: hidden;
 }
-
 
 @media screen and (max-width: 750px) {
   .editRow {
@@ -640,7 +742,7 @@ h2.linea2:before {
   }
   .formularioDatosTaller{
     padding: 0 5%;
-color:#fff;
+    color:#fff;
   }
   .lineaIzquierda{
     margin-left: 0%;
@@ -655,164 +757,11 @@ color:#fff;
     margin: 5% 0;
   }
   .contenedorTaller{
-  padding: 0px ;
-}
-}
-
-
-/*Estilos generales*/
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-ul, ol {
-  list-style: none;
-}
-
-body {
-  font-family: Open sans;
-}
-
-/*Estilos banner*/
-
-/* Contenedor de las diapositivas*/
-.slideshow {
-  width: 100%;
-  position: relative;
-}
-
-.slider li, ul {
-  width: 100%;
-}
-
-.slider li {
-  overflow: hidden;
-
-  -webkit-transition: all 1s ease-in-out;
-  -moz-transition: all 1s ease-in-out;
-  -ms-transition: all 1s ease-in-out;
-  -o-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
-}
-
-.slider li img {
-  width: 100%;
-}
-
-/* Texto de las diapositivas*/
-.slider .caption {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  padding: 15px 50px 15px 100px;
-  /*Centrar*/
-  display: flex;
-  /*Posisionando textos en columnas*/
-  flex-direction: column;
-  justify-content: center;
-  color: #fff;
-  /*z-index: 1;*/
-}
-
-/* Puntos*/
-.pagination {
-  position: absolute;
-  top: 70%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  z-index: 1;
-}
-
-.pagination li {
-  font-size: 20px;
-  margin: 2px 5px;
-  color: #858585;
-  cursor: pointer;
-}
-
-/*Flechas*/
-.left, .right {
-  position: absolute;
-  top: 40%;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  color:#FAAE34;
-  font-size: 45px;
-  cursor: pointer;
-  /*z-index: 2;*/
-  background: rgba(0,0,0,0.2);
-}
-
-.left:hover, .right:hover {
-  background: rgba(0,0,0,0.7);
-}
-
-.left {
-  left: 30px;
-}
-
-.right {
-  right: 30px;
-}
-
-.img-responsive{
-    display: inline-block !important;
-}
-
-.textoCaption {
-  background: rgba(0,0,0,0.7);
-  width: 75%;
-  display: inline-block;
-  padding: .5% 2%;
-}
-
-@media screen and (max-width: 750px) {
-  .lefth, .rigth {
-    font-size:30px;
-  }
-  .left {
-    left: 10px;
-  }
-  .right {
-    right: 10px;
-  }
-  .textoCaption {
-    width: 100%;
-    height: 100%;
-    padding: auto;
-    background: rgba(0,0,0,0.5);
-  }
-  .tituloSlider{
-    display: none;
-  }
-  .parrafoSlider{
-    font-size:16px;
-  }
-  .slider .caption {
-    padding: 5px 60px 5px 60px;
+    padding: 0px ;
   }
 }
 
-
-
-/*FAQS*/
-.faq_question {
-  cursor: pointer;
+.btnPremiosParticipar{
+font-size:23px;
 }
 
-.faq_answer_container {
-  height: 0px;
-  overflow: hidden;
-}
-
-.disponibilidadBases {
-  font-size: 13px;
-}
