@@ -51,67 +51,40 @@ ul.menu li a:hover {
 }
 
 ul.menu li a:focus { outline: none; }
+
 /************************************************************************************************
 Estilos home
 ************************************************************************************************/
 #section_1, #section_2, #section_3, #section_4, #section_5, #section_6, #section_7 {
   width:100%;
   height: auto;
+  margin-top: 80px;
+  font-family: 'Montserrat', sans-serif!important;
 }
 
 
 /*Sección desafío, primera sección*/
 #section_1 .subSection1 {
- /* background-image: url(https://d3jqq3cy6vtj1r.cloudfront.net/Coordinador/DesafioFlash/imgPlatagorma/Fondos/fondo.Seccion1.png);*/
-background-color:#4A558F;
-  padding-top: 80px;
-  color:#fff;
-}
-
-.contenedorLogosInicio{
-  margin: 1% 0;
-}
-
-.lineaIzquierda{
-  border-left: solid 1px #fff;
-  margin-left: 5%!importan;
-}
-
-.logoBDP{
-  margin-left: 5%!important;
-width:80%;
+  background-image: url(https://d1dxeoyimx6ufk.cloudfront.net/uploads/NA5/OD7908/914DE87A.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+ 
 }
 
 .logoDesafio{
-  padding-right: 0%;
-
-width:80%;
-}
-
-.btnParticipa:link, .btnParticipa:visited, .btnParticipa:active, a {
-  text-decoration:none;
-  color:#fff;
-}
-
-.btnParticipa{
-  font-size:20px;
-  background-color:#2CAEA3;
-  padding:12px 37px;
-}
-
-.contenedorBTNParticipa{
-   margin: 2% 0;
-}
-
-.btnParticipa:hover {
-  color: #2CAEA3;
-  background-color:#fff;
-  border: solid 2px #2CAEA3;
+  margin-top: 15%;
+  width:40%;
 }
 
 .parrafoSeccion {
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
+}
+
+.subSection1 .parrafoSeccion {
+  padding:6% 10%;
+  text-align: justify;
 }
 
 .titulos {
@@ -615,9 +588,11 @@ margin-top:1%;
 /*Sección FAQ, septima sección*/
 #section_7 {
   background-color: #2CAEA3;
-  /*background-image: url(https://d3jqq3cy6vtj1r.cloudfront.net/Coordinador/DesafioFlash/imgPlatagorma/Fondos/preguntasFrecuentesFondo.png);*/
+  /*
+  background-image: url(https://d3jqq3cy6vtj1r.cloudfront.net/Coordinador/DesafioFlash/imgPlatagorma/Fondos/preguntasFrecuentesFondo.png);
   background-size: cover;
   background-position: center top;
+  */
   color: #fff;
 }
 
@@ -695,6 +670,10 @@ h2.linea2:before {
 }
 
 @media screen and (max-width: 750px) {
+  .logoDesafio{
+    margin-top: 15%;
+    width:40%;
+  }
   .editRow {
     padding: 60px 1% 2% 1%;
   }
@@ -744,15 +723,6 @@ h2.linea2:before {
     padding: 0 5%;
     color:#fff;
   }
-  .lineaIzquierda{
-    margin-left: 0%;
-  }
-  .logoCoordinador{
-    margin-left: 0%;
-  }
-  .logoDesafio{
-    margin-top:15%;
-  }
   .contenedorBTNParticipa{
     margin: 5% 0;
   }
@@ -763,5 +733,6 @@ h2.linea2:before {
 
 .btnPremiosParticipar{
 font-size:23px;
+
 }
 
