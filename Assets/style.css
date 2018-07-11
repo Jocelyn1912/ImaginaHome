@@ -55,10 +55,15 @@ ul.menu li a:focus { outline: none; }
 /************************************************************************************************
 Estilos home
 ************************************************************************************************/
-#section_1, #section_2, #section_3, #section_4, #section_5, #section_6, #section_7 {
+#section_1, #section_2, #section_3, #section_4, #section_5, #section_6{
   width:100%;
   height: auto;
-  margin-top: 40px;
+  padding-top: 40px;
+  font-family: 'Montserrat', sans-serif!important;
+}
+#section_7 {
+  width:100%;
+  height: auto;
   font-family: 'Montserrat', sans-serif!important;
 }
 
@@ -91,6 +96,7 @@ Estilos home
   font-size: 35px;
   padding: 0;
   text-align: center;
+padding-top: 25px;
 }
 
 .subSection12{
@@ -133,7 +139,7 @@ display:none;
 }
 
 .editRow {
-  padding: 58px 1% 2% 1%;
+  padding: 0px 1% 2% 1%;
 }
 
 /*Segunda sección*/
@@ -183,12 +189,11 @@ display:none;
   height: 100%;
   top: 0;
   left: 0;
-  padding: 15px 50px 15px 100px;
+  padding: 85px 50px 15px 100px;
   /*Centrar*/
   display: flex;
   /*Posisionando textos en columnas*/
   flex-direction: column;
-  justify-content: center;
   color: #fff;
   /*z-index: 1;*/
 }
@@ -203,7 +208,7 @@ display:none;
 /*Flechas*/
 .left, .right {
   position: absolute;
-  top: 40%;
+  top: 20%;
   height: 60px;
   display: flex;
   align-items: center;
@@ -231,8 +236,8 @@ display:none;
 }
 
 .textoCaption {
-  background: rgba(0,0,0,0.7);
-  width: 75%;
+  background: rgba(0,0,0,0.3);
+  width: 95%;
   display: inline-block;
   padding: .5% 2%;
 }
@@ -530,9 +535,7 @@ padding-bottom:20px;
   padding: 0 1%;
 }
 
-#section_6 .titulos{
-  padding-top: 50px;
-}
+
 
 #section_6 hr{
   width:70px;
@@ -732,7 +735,5 @@ h2.linea2:before {
 }
 
 .btnPremiosParticipar{
-font-size:23px;
-
+  font-size:23px;
 }
-
