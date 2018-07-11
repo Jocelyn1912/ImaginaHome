@@ -90,12 +90,13 @@ Estilos home
   width:60%;
   margin-bottom: 20%;
 }
+
 .subSection10 .fondoBlanco{
   color:#043B84;
   background: rgba(252,247,247,0.3);
   padding:3%;
   margin-top:-5%;
-  margin-bottom:10%;
+  margin-bottom:3%;
 }
 
 .fondoBlanco .parrafoSeccion{
@@ -113,10 +114,12 @@ Estilos home
   font-size: 18px;
   text-align: center;
 }
+
 .participaAhora:link, .descargarBases:link, .participaAhora:hover .descargarBases:hover, .participaAhora:visited .descargarBases:visited, .participaAhora:active, .descargarBases:active, a {
   text-decoration:none;
-  color:#fff;
+  color:#fff!important;
 }
+
 .participaAhora{
   background-color:#036BAD;
 }
@@ -126,13 +129,16 @@ Estilos home
 
 .participaAhora, .descargarBases{
   font-size:18px;
-  padding:10px;
-  margin:10px;
+  padding:8px;
+  margin:12px;
+  border-radius: 1px 10px 1px 10px;
 }
 
 .contenedorParticipar {
-    padding-top: 3%;
-    padding-bottom: 1%;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    display:inline-block;
+
 }
 
 .subSection1 .parrafoSeccion {
@@ -144,20 +150,43 @@ Estilos home
   font-size: 35px;
   padding: 0;
   text-align: center;
-padding-top: 25px;
+  padding-top: 25px;
 }
 
 .subSection12{
-  background-color: #fff;
-  padding: 0 10%;
+  background-image: url(https://d1dxeoyimx6ufk.cloudfront.net/uploads/NA5/OD7908/F8BACF2C.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
 }
 
-.colorRojo{
-  color:#E04646;
+.fondoAvion{
+  background-image:url(https://d1dxeoyimx6ufk.cloudfront.net/uploads/NA5/OD7908/418F7D62.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.subSection12 .parrafoSeccion{
+  color:#6365AF;
+  padding:3%;
+  margin-bottom:3%;
+  text-align: justify;
 }
 
 .subTituloSeccion12 {
-  color: #E04646;
+  font-size:30px;
+  color: #6365AF;
+  height:175px;
+  font-weight: bold;
+  padding-top: 65px;
+}
+
+.tituloQuienes{
+  font-size:27px;
+  color: #174684;
+  font-weight: bold;
+  margin-top: 5%;
 }
 
 .contenedorParrafoSeccion1 hr {
@@ -165,14 +194,23 @@ padding-top: 25px;
   display: inline-block;
 }
 
-.contenedorRayos{
+.contenedorIconosQuienes{
   text-align: center;
-  padding: 2% 0;
+  padding: 2% 10% 5% 10%;
+}
+
+.contenedorIcono p{
+  padding:0% 5%;
+}
+
+.contenedorIcono img{
+  padding-bottom: 5%;
 }
 
 .textoMayusculas {
   font-size: 18px;
-  text-align: center;
+  text-align: justify;
+  color:#6365AF;
 }
 
 /*Escondiendo Login*/
@@ -192,7 +230,7 @@ display:none;
 
 /*Segunda sección*/
 #section_2 {
-  background-color: #fff;
+  background-color: #F2F6F8;
   padding-top: 44px;
 }
 
@@ -725,24 +763,33 @@ h2.linea2:before {
     margin-top: 5%;
     width:90%;
     margin-bottom: 20%;
-}
+  }
   #section_1 .subSection10 {
     margin-top: -320px;
   }
   .editRow {
     padding: 60px 1% 2% 1%;
   }
-.slider .caption {
+  .subTituloSeccion12{
+    padding-top: 0px;
+    height:65px;
+  }
+  .fondoAvion{
+  background-image:none;
+  }
+  .subSection12 .col-xs-12{
+    padding:0;
+  }
+
+  .slider .caption {
     padding: 5px 35px 5px 53px;
-}
-
-.left {
+  }
+  .left {
     left: 3px;
-}
-
-.right {
+  }
+  .right {
   right: 3px;
-}
+  }
   #section_3 .linkAParticipando, #section_3 .descargarBases{
     font-size: 15px;
     display: block;
