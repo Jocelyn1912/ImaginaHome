@@ -8,7 +8,7 @@
 body {
   padding: 0;
   margin: 0;
-  letter-spacing: 1.5px;
+  letter-spacing: 1px;
 }
 
 nav#navigation {
@@ -70,21 +70,69 @@ Estilos home
 
 /*Sección desafío, primera sección*/
 #section_1 .subSection1 {
-  background-image: url(https://d1dxeoyimx6ufk.cloudfront.net/uploads/NA5/OD7908/914DE87A.jpg);
+  background-image: url(https://d1dxeoyimx6ufk.cloudfront.net/uploads/NA5/OD7908/A6A1B798.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
  
 }
 
+#section_1 .subSection10 {
+  margin-top: -400px;
+  background-image: url(https://d1dxeoyimx6ufk.cloudfront.net/uploads/NA5/OD7908/452A94C6.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
 .logoDesafio{
-  margin-top: 15%;
-  width:40%;
+  margin-top: 5%;
+  width:60%;
+  margin-bottom: 20%;
+}
+.subSection10 .fondoBlanco{
+  color:#043B84;
+  background: rgba(252,247,247,0.3);
+  padding:3%;
+  margin-top:-5%;
+  margin-bottom:10%;
+}
+
+.fondoBlanco .parrafoSeccion{
+  text-align: justify;
+}
+
+.tituloMilennial{
+  font-size:30px;
+  text-align:center;
+  font-weight: bold;
+  padding:4% 0;
 }
 
 .parrafoSeccion {
   font-size: 18px;
   text-align: center;
+}
+.participaAhora:link, .descargarBases:link, .participaAhora:hover .descargarBases:hover, .participaAhora:visited .descargarBases:visited, .participaAhora:active, .descargarBases:active, a {
+  text-decoration:none;
+  color:#fff;
+}
+.participaAhora{
+  background-color:#036BAD;
+}
+.descargarBases{
+  background-color:#073589;
+}
+
+.participaAhora, .descargarBases{
+  font-size:18px;
+  padding:10px;
+  margin:10px;
+}
+
+.contenedorParticipar {
+    padding-top: 3%;
+    padding-bottom: 1%;
 }
 
 .subSection1 .parrafoSeccion {
@@ -674,12 +722,27 @@ h2.linea2:before {
 
 @media screen and (max-width: 750px) {
   .logoDesafio{
-    margin-top: 15%;
-    width:40%;
+    margin-top: 5%;
+    width:90%;
+    margin-bottom: 20%;
+}
+  #section_1 .subSection10 {
+    margin-top: -320px;
   }
   .editRow {
     padding: 60px 1% 2% 1%;
   }
+.slider .caption {
+    padding: 5px 35px 5px 53px;
+}
+
+.left {
+    left: 3px;
+}
+
+.right {
+  right: 3px;
+}
   #section_3 .linkAParticipando, #section_3 .descargarBases{
     font-size: 15px;
     display: block;
