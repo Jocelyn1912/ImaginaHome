@@ -395,59 +395,60 @@ font-size:13px;
 
 /*Sección etapas, cuarta sección*/
 #section_4 {
-  background-image: url(https://d3jqq3cy6vtj1r.cloudfront.net/Coordinador/DesafioFlash/imgPlatagorma/Fondos/fondoVerde4taSeccion.png);
+  background-color: #36AAD9;
 }
 
-.contenedorCadaEtapa hr{
-  width: 100px;
-  display: inline-block;
-  margin:0;
-  color:#2CAEA3;
-
-}
-
-.numeroEtapa{
-  display:inline-block;
-  background-color: #FEC01F;
-  margin:0;
-  font-size: 18px;
-  color: #fff;
-  padding:5px 25px;
+.tituloEtapas, .parrafoEtapas, .subTituloEtapas{
+  color:#FFF;
 }
 
 .parrafoEtapas{
-  font-size: 20px;
-  margin:0;
+  text-align:justify;
 }
 
-.parrafoEtapasFecha{
-  font-size: 20px;
-  padding-top: 12px;
+.contenedorIMGEtapas {
+  border-bottom: 2px solid #fff;
 }
 
-.contenedorBuzon{
-  background-color: #56BEB5;
-  padding: 10% 5%;
-  color: #fff;
+.contenedorTodasLasEtapas{
+  padding:5% 10%;
 }
 
-.tituloEtapas{
+.contenedorIMGEtapas img{
+  width:200px;
+  height:auto;
+  padding: 15%;
+}
+
+.subTituloEtapas{
+  font-size:20px;
   color:#fff;
+  padding: 5% 0 10% 0;
 }
 
-.espacioEtapas {
-  padding: 15px 0px 0px 0px;
+.espacioEtapas{
+  width:10%;
 }
 
-.contenedorActivo{
-  background-color: #FEC01F;
-  color:#fff;
+.contenedorMetaPersona {
+  margin-top: -80px;
+  background-image:url(https://d1dxeoyimx6ufk.cloudfront.net/uploads/NA5/OD7908/D40DFBDC.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top right;
+  height:300px;
 }
 
-.numeroEtapaActiva{
-  background-color: #4A5493;
+#section_4 .participaAhora {
+  font-size:18px;
+  border-radius: 10px;
+  background-color:#36AAD9;
+  border:2px solid #fff;
 }
 
+#section_4 .contenedorParticipar{
+  margin-top: 10%;
+}
 
 /*Sección premios, sexta sección*/
 .contenedorSection6{
@@ -513,6 +514,8 @@ margin-top:1%;
   background-position: center top;
   height: 170px;
 }
+
+
 
 /*Sección FAQ, septima sección*/
 #section_6 {
@@ -644,21 +647,11 @@ h2.linea2:before {
   .contenedorComputador{
     margin-top: 0px;
   }
-  .parrafoEtapas, .parrafoEtapasFecha{
-    font-size: 17px;
+  .contenedorMetaPersona {
+    margin-top: 50px;
   }
-  .parrafoEtapasFecha{
-    font-size: 15px;
-  }
-  .numeroEtapa{
-    font-size: 15px;
-    padding:5px 25px;
-  }
-  .contenedorCadaEtapa{
-    margin-bottom: 10px;
-  }
-  .espacioEtapas {
-    padding: 2px 0px 0px 0px;
+  #section_4 .contenedorParticipar{
+    margin-top: -20%;
   }
   .btnPremiosParticipar{
     font-size: 25px;
