@@ -116,7 +116,7 @@ Estilos home
   color:#557DB1;
 }
 
-.participaAhora:link, .descargarBases:link, .participaAhora:hover .descargarBases:hover, .participaAhora:visited .descargarBases:visited, .participaAhora:active, .descargarBases:active, a {
+.participaAhora:link, .descargarBases:link, .participaAhora:visited .descargarBases:visited, .participaAhora:active, .descargarBases:active, a {
   text-decoration:none;
   color:#fff!important;
 }
@@ -126,6 +126,19 @@ Estilos home
 }
 .descargarBases{
   background-color:#073589;
+}
+
+.participaAhora:hover{
+  text-decoration:none;
+  border:2px solid #036BAD;
+  background-color:transparent;
+  color:#036BAD!important;
+}
+.descargarBases:hover{
+  text-decoration:none;
+  border:2px solid #073589;
+  background-color:transparent;
+  color:#073589!important;
 }
 
 .participaAhora, .descargarBases{
@@ -163,10 +176,20 @@ Estilos home
 }
 
 .fondoAvion{
+  margin-top:-150px;
   background-image:url(https://d1dxeoyimx6ufk.cloudfront.net/uploads/NA5/OD7908/418F7D62.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top left;
+  width:100%;
+  height:220px;
+
+  
+}
+
+.avionBordes .col-md-12, .avionBordes .col-xs-12{
+  padding-right: 0px!important;
+  padding-left: 0px!important;
 }
 
 .subSection12 .parrafoSeccion{
@@ -179,7 +202,6 @@ Estilos home
 .subTituloSeccion12 {
   font-size:30px;
   color: #6365AF;
-  height:175px;
   font-weight: bold;
   padding-top: 65px;
 }
@@ -337,6 +359,7 @@ Estilos home
   background-repeat: no-repeat;
   background-position: top center;
   padding-bottom: 100px;
+  padding-top:8%;
 }
 
 #section_3 .col-xs-6, #section_3 .col-md-3{
@@ -396,6 +419,7 @@ font-size:13px;
 /*Sección etapas, cuarta sección*/
 #section_4 {
   background-color: #36AAD9;
+  padding-top:8%;
 }
 
 .tituloEtapas, .parrafoEtapas, .subTituloEtapas{
@@ -404,10 +428,7 @@ font-size:13px;
 
 .parrafoEtapas{
   text-align:justify;
-}
-
-.contenedorIMGEtapas {
-  border-bottom: 2px solid #fff;
+  padding: 0 7%;
 }
 
 .contenedorTodasLasEtapas{
@@ -415,15 +436,15 @@ font-size:13px;
 }
 
 .contenedorIMGEtapas img{
-  width:200px;
+  width:210px;
   height:auto;
-  padding: 15%;
+  
 }
 
 .subTituloEtapas{
   font-size:20px;
   color:#fff;
-  padding: 5% 0 10% 0;
+  padding: 1% 0 10% 0;
 }
 
 .espacioEtapas{
@@ -450,74 +471,70 @@ font-size:13px;
   margin-top: 10%;
 }
 
-/*Sección premios, sexta sección*/
-.contenedorSection6{
-  background-image: url(https://d3jqq3cy6vtj1r.cloudfront.net/Coordinador/DesafioFlash/imgPlatagorma/Fondos/fondo_00azulSinOndaso.png);
-  background-size: cover;
-  background-position: center top;
-  color:#fff;
-padding-bottom:20px;
+/*Sección premios, quinta sección*/
+#section_5{
+  background-color:#fff;
+}
+
+#section_5 .titulos{
+  padding-top:8%;
+  padding-bottom: 5%;
 }
 
 #section_5 .contenedorCadaPremio{
-  text-align: left;
   font-size: 15px;
-  padding: 0 1%;
+  margin:2%;
+  border:2px solid #1F568E;
+  height:270px;
+  text-align:center;
 }
 
 #section_5 hr{
-  width:70px;
+  width:60px;
+  border: 2px solid #1f568e;
+}
+
+.imgIconoPremios{
+  display:block;
+  margin:auto;
+  width:130px;
+  height:auto;
+  margin-top:-60px;
+  margin-bottom:10%;
+
+}
+.contenedorBTNParticipar{
+  padding:2% 0;
+}
+
+#section_5 .participaAhora{
+  padding:10px;
+  border-radius: 10px;
+  background-color:#fff;
+  color:#0F3073!important;
+  border:2px solid #0F70B3;
+}
+
+#section_5 .participaAhora:hover{
+  color:#0F70B3!important;
+  border:2px solid #61b7ed!important;
+}
+
+.textoMayusculasPremio{
+  color:#163E6F;
+  font-weight: bold;
+  margin: 5%;
 }
 
 .parrafoSeccionPremio{
-margin:0!important;
+  color:#0F70B3;
 }
-
 .contenedorPremios{
-  padding: 1% 5% 0% 5%;
-}
-.imgIconoPremios{
-  width: 70px;
-  height: auto;
-  padding: 5% 0;
-}
-
-.btnPremiosParticipar{
-  font-size: 30px;
-  color: #fff;
-  background-color:#FEC01F;
-  padding: 10px 250px;
-margin-top:1%;
-}
-
-.btnPremiosParticipar:link, .btnPremiosParticipar:visited, .btnPremiosParticipar:active, a {
-    text-decoration:none;
-    color:#fff;
-}
-
-.btnPremiosParticipar:hover {
-  color: #2CAEA3;
-  background-color:#fff;
-  border: solid 2px #2CAEA3;
-}
-
-.iconoBTNParticipar{
-  width: 100px;
-  height: auto;
-  padding-bottom: 1%;
-}
-
-.comtinuacionContenedor6{
-  border-top: solid 45px #3A4380 ;
-  background-image: url(https://d3jqq3cy6vtj1r.cloudfront.net/Coordinador/DesafioFlash/imgPlatagorma/Fondos/fondo_00azulOndaInferior.png);
-  background-size: cover;
-  background-position: center top;
-  height: 170px;
+  padding:0 5%;
 }
 
 
-
-/*Sección FAQ, septima sección*/
+/*Sección FAQ, sexta sección*/
 #section_6 {
   background-color: #2CAEA3;
   /*
@@ -529,7 +546,7 @@ margin-top:1%;
 }
 
 .contenedorPreguntasFrecuentes{
-  margin-top: -30px;
+  margin:5%;
 }
 
 .editRowPreguntasFrecuentes{
@@ -613,11 +630,10 @@ h2.linea2:before {
     padding: 60px 1% 2% 1%;
   }
   .subTituloSeccion12{
-    padding-top: 0px;
-    height:65px;
+   
   }
   .fondoAvion{
-  background-image:none;
+    margin-top:0px;
   }
   .subSection12 .col-xs-12{
     padding:0;
@@ -641,8 +657,7 @@ h2.linea2:before {
     padding-top:35%;
   }
   .titulos {
-    font-size: 30px;
-    color:#335888;
+    font-size: 27px;
   }
   .contenedorComputador{
     margin-top: 0px;
@@ -653,6 +668,9 @@ h2.linea2:before {
   #section_4 .contenedorParticipar{
     margin-top: -20%;
   }
+  #section_5 .contenedorCadaPremio {
+    margin-top: 25%;
+  }
   .btnPremiosParticipar{
     font-size: 25px;
     padding: 5px 90px;
@@ -661,8 +679,8 @@ h2.linea2:before {
     padding: 0 5%;
     color:#fff;
   }
-  .contenedorBTNParticipa{
-    margin: 5% 0;
+  .contenedorBTNParticipar{
+    margin: 10% 0;
   }
   .contenedorTaller{
     padding: 0px ;
