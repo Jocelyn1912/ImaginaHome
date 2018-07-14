@@ -477,6 +477,22 @@ $(document).ready(function(){
 
 </script>
 
+<!--SCROLLING JUMP LINK ANIMATION-->
+<script>$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});</script>
+
 
 
 <div class="footer">
@@ -515,4 +531,12 @@ $(document).ready(function(){
 </html>
 
 
-
+<!--  
+.left_bar{
+background-color:#009FE3!important;
+background-image:url(https://d1dxeoyimx6ufk.cloudfront.net/uploads/NA5/OD7908/8E0968D5.png);
+background-size:250px auto;
+background-repeat: no-repeat;
+height:50px;
+}
+ -->
