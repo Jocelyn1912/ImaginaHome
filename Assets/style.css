@@ -55,69 +55,52 @@ ul.menu li a:focus { outline: none; }
 /************************************************************************************************
 Estilos home
 ************************************************************************************************/
-#section_1, #section_2, #section_3, #section_4, #section_5{
+#section_1, #section_3, #section_4, #section_5{
   width:100%;
   height: auto;
   padding-top: 40px;
-  font-family: 'Montserrat', sans-serif!important;
+  font-family: 'Open Sans', sans-serif!important;
 }
+#section_2{
+  width:100%;
+  height: auto;
+  padding-top: 0px;
+  font-family: 'Open Sans', sans-serif!important;
+text-align: center!important;
+}
+
 #section_6 {
   width:100%;
   height: auto;
-  font-family: 'Montserrat', sans-serif!important;
+  font-family: 'Open Sans', sans-serif!important;
+
 }
 
-
-#section_1 .subSection1 {
-  background-image: url(https://d1dxeoyimx6ufk.cloudfront.net/uploads/NA5/OD7908/A6A1B798.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top center;
-  width:100%;
-  height:600px;
-}
-
-#section_1 .subSection1 .contenedorParticipar{
-  display:block;
-}
-
-#section_1 .subSection10 {
-  margin-top: -420px;
-  background-image: url(https://d1dxeoyimx6ufk.cloudfront.net/uploads/NA5/OD7908/452A94C6.png);
+#section_1 {
+  background-image: url(https://d1dxeoyimx6ufk.cloudfront.net/uploads/NA5/OD7908/7D326F38.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
 }
 
 .logoDesafio{
-  margin-top: 5%;
-  width:60%;
+  width:100%;
 }
 
-.subSection10 .fondoBlanco{
-  color:#043B84;
-  background: rgba(252,247,247,0.6);
-  padding:3%;
-  margin-top:13%;
-  margin-bottom:3%;
+.contenedorLogosInicio .col-xs-12, .contenedorLogosInicio .col-md-12{
+  padding-right: 0!important;
+  padding-left: 0!important;
 }
 
-.fondoBlanco .parrafoSeccion{
+.parrafoSeccion{
   text-align: justify;
   color:#043B84!important;
 }
 
-.tituloMilennial{
-  font-size:30px;
-  text-align:center;
-  font-weight: bold;
-  padding:4% 0;
-}
-
 .parrafoSeccion {
-  font-size: 18px;
+  font-size: 20px;
   text-align: justify;
-  color:#557DB1;
+  color:#00a4e2;
 }
 
 .participaAhora:link, .descargarBases:link, .participaAhora:visited .descargarBases:visited, .participaAhora:active, .descargarBases:active, a {
@@ -125,29 +108,31 @@ Estilos home
 }
 
 .participaAhora{
-  background-color:#036BAD;
+  background-color:#00a4e2;
 }
+
 .descargarBases{
-  background-color:#073589;
+  background-color:#00a4e2;
 }
 
 .participaAhora:hover{
   text-decoration:none;
-  border:2px solid #036BAD;
+  border:2px solid #00a4e2;
   background-color:transparent;
   color:#036BAD!important;
 }
+
 .descargarBases:hover{
   text-decoration:none;
-  border:2px solid #073589;
+  border:2px solid #00a4e2;
   background-color:transparent;
-  color:#073589!important;
+ color:#036BAD!important;
 }
 
 .participaAhora, .descargarBases{
   font-size:18px;
-  padding:8px;
-  margin:12px;
+     padding: 8px 20px;
+  margin:24px;
   border-radius: 1px 10px 1px 10px;
 }
 
@@ -157,9 +142,14 @@ Estilos home
   display:inline-block;
 }
 
-.subSection1 .parrafoSeccion {
-  padding:6% 10%;
+.parrafoInvita {
+  padding:6% 5% 2% 5%;
   text-align: justify;
+}
+
+.parrafoInvita2{
+  padding:2% 5%;
+  color:#00a4e2!important;
 }
 
 .titulos {
@@ -168,47 +158,19 @@ Estilos home
   text-align: center;
   padding-top: 25px;
   font-weight: bold;
-  color:#1D4173;
-}
-
-.subSection12{
-  background-image: url(https://d1dxeoyimx6ufk.cloudfront.net/uploads/NA5/OD7908/F8BACF2C.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top center;
-}
-
-.fondoAvion{
-  margin-top:-50px;
-  background-image:url(https://d1dxeoyimx6ufk.cloudfront.net/uploads/NA5/OD7908/418F7D62.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top left;
-  width:100%;
-  height:220px;
-}
-
-.avionBordes .col-md-12, .avionBordes .col-xs-12, .contenedorMetaPersona .col-md-12, .avionBordes .col-xs-12{
-  padding-right: 0px!important;
-  padding-left: 0px!important;
-}
-
-.subSection12 .parrafoSeccion{
-  color:#6365AF;
-  padding:3%;
-  text-align: justify;
+  color:#0871b8;
 }
 
 .subTituloSeccion12 {
   font-size:30px;
-  color: #6365AF;
+  color: #0d73b8;
   font-weight: bold;
-  padding-top: 65px;
+  padding-top: 15%;
 }
 
 .tituloQuienes{
   font-size:27px;
-  color: #174684;
+  color: #0871b8;
   font-weight: bold;
   margin-top: 5%;
 }
@@ -220,7 +182,7 @@ Estilos home
 
 .contenedorIconosQuienes{
   text-align: center;
-  padding: 2% 10%;
+  padding: 2% 10% 15% 10%;
 }
 
 .contenedorIcono p{
@@ -235,7 +197,7 @@ Estilos home
 .textoMayusculas {
   font-size: 18px;
   text-align: justify;
-  color:#6365AF;
+  color:#00a4e2;
 }
 
 /*Escondiendo Login*/
@@ -256,7 +218,7 @@ Estilos home
 /*Segunda sección*/
 #section_2 {
   background-color: #F2F6F8;
-  padding-top: 44px;
+
 }
 
 .tituloSlider {
@@ -323,7 +285,7 @@ Estilos home
   height: 60px;
   display: flex;
   align-items: center;
-  color:#FAAE34;
+  color:#00A3E1;
   font-size: 45px;
   cursor: pointer;
   /*z-index: 2;*/
@@ -370,13 +332,19 @@ Estilos home
 .tituloParticipar{
   padding-bottom:5%;
 }
+.contenedoresComoParticipar .parrafoSeccion{
+color:#00a4e2!important;
+}
 
 .titulosIconosParticipar{
   font-weight: bold;
-  color:#073B84;
-  border-bottom: 2px solid #B2D6EB;
+  color:#2B59A4!important;
+  border-bottom: 2px solid#2B59A4;
+font-size:23px;
 }
-
+.contenedoresComoParticipar a{
+color:#00a4e2!important;
+}
 #section_3 .parrafoSeccion{
   padding: 0 0 0 5%;
 font-size:13px;
@@ -387,6 +355,8 @@ font-size:13px;
   background: rgba(157,205,242,0.1);
   margin-bottom:2%;
   border-radius: 10px;
+    color: #00a4e2!important;
+
 }
 
 .imagenPersonas{
@@ -409,7 +379,7 @@ font-size:13px;
 
 .contenedorComputador {
   margin-top: -50px;
-  background-image:url(https://d1dxeoyimx6ufk.cloudfront.net/uploads/NA5/OD7908/54274465.png);
+  background-image:url(https://d1dxeoyimx6ufk.cloudfront.net/uploads/NA5/OD7709/179E864E.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top left;
@@ -433,21 +403,26 @@ font-size:13px;
 }
 
 .contenedorTodasLasEtapas{
-  padding:3%;
+  padding:0 5% 5% 5%;
 }
 
 .contenedorIMGEtapas img{
   width:210px;
   height:auto;
-  
+ }
+.contenedorIMGEtapas {
+padding-top:20%; 
 }
 
 .subTituloEtapas{
   font-size:20px;
   color:#fff;
+}
+.fechasEtapas{
+ font-size:15px;
+  color:#fff;
   padding:0 0 10% 0;
 }
-
 .espacioEtapas{
   width:10%;
 }
@@ -463,8 +438,6 @@ font-size:13px;
 
 #section_4 .participaAhora {
   font-size:18px;
-  border-radius: 10px;
-  background-color:#36AAD9;
   border:2px solid #fff;
 }
 
@@ -474,7 +447,7 @@ font-size:13px;
 
 /*Sección premios, quinta sección*/
 #section_5{
-  background-color:#fff;
+  background-color:#f5f5f5;
 }
 
 #section_5 .titulos{
@@ -486,15 +459,15 @@ font-size:13px;
     font-size: 12px;
     margin: 10px;
     border: 2px solid #1F568E;
-    height: 270px;
-widht:100%;
+    height: 250px;
+
     text-align: center;
 margin-top: 10%;
 }
 
 #section_5 hr{
   width:60px;
-  border: 2px solid #1f568e;
+  border: 2px solid #1071b4;
 display: inline-block;
 margin-top: 0px!important;
 }
@@ -514,28 +487,36 @@ margin-top: 0px!important;
 
 #section_5 .participaAhora{
   padding:10px;
-  border-radius: 10px;
-  background-color:#fff;
-  color:#0F3073!important;
-  border:2px solid #0F70B3;
+  background-color:#00A3E1;
+  color:#fff;
 }
 
 #section_5 .participaAhora:hover{
-  color:#0F70B3!important;
+  color:00A3E1#!important;
   border:2px solid #61b7ed!important;
+ background-color:#F5F5F5;
 }
 
 .textoMayusculasPremio{
-  color:#163E6F;
+  color:#1071b4;
   font-weight: bold;
   margin: 5%;
 }
 
 .parrafoSeccionPremio{
   color:#0F70B3;
+  font-size: 35px;
+  font-weight: bold;
+  bottom: 20pt;
+  position: absolute;
+  left: 0;
+  right: 0;
 }
+
 .contenedorPremios{
   padding:0 5%;
+   display: inline-block;
+
 }
 
 
@@ -547,8 +528,9 @@ margin-top: 0px!important;
   background-size: cover;
   background-position: center top;
   */
-  color: #fff;
-  padding-top: 8%;
+  color: #000;
+ padding: 0 7%;
+ 
 }
 
 .contenedorPreguntasFrecuentes{
@@ -632,18 +614,22 @@ color:#1D4173;
 @media screen and (max-width: 750px) {
   .logoDesafio{
     margin-top: 5%;
-    width:100%;
   }
-  .subSection10 .fondoBlanco{
-  background: rgba(252,247,247,0.6);
-  margin-top:20%;
+.img-escritorio{
+display:none;
 }
-
+  .parrafoInvita {
+    padding:6% 2% 2% 2%;
+    text-align: justify;
+  }
+  .parrafoInvita2{
+    padding:2%;
+  }
   .editRow {
     padding: 60px 1% 2% 1%;
   }
   .subTituloSeccion12{
-   
+  font-size:25px;
   }
   .fondoAvion{
     margin-top:0px;
@@ -698,6 +684,19 @@ width:80%;
     padding: 0px ;
   }
 
+  .contenedorBTNParticipar {
+    padding: 15% 0;
+}
+
+#section_4 .contenedorParticipar {
+    margin-top: 0;
+}
+.contenedorParticipar {
+    margin-bottom: 7%;
+}
+.tituloSlider {
+    font-size: 18px;
+}
 }
 
 @media (min-width: 1500px) {
@@ -715,4 +714,58 @@ width:80%;
 
 .btnPremiosParticipar{
   font-size:23px;
+}
+
+p.parrafoSeccionPremio1 {
+    color: #0F70B3;
+}
+
+p.textoMayusculasPremio1 {
+    color: #1071b4;
+    font-weight: bold;
+    margin: 13%;
+}
+
+.subTituloSeccion121 {
+    font-size: 30px;
+    color: #0d73b8;
+    font-weight: bold;
+    padding-top: 65px;
+margin-bottom: 25px;
+}
+.panel-default > .panel-heading {
+  background-color: #00A3E1 !important;
+}
+
+.navbar-default {
+  border-radius: 0!important;
+  background-color: #1071b4!important;
+  font-family: 'Open Sans', sans-serif!important;
+}
+
+.navbar-collapse {
+  border-top: 0!important;
+}
+
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+  border-bottom: 1px solid #0169ae;
+}
+#menuCelular{
+  font-family: 'Open Sans', sans-serif!important;
+}
+
+
+
+@media (min-width: 750px) {
+  #menuCelular{
+  
+}
+
+.img-celular{
+display:none;
+}
+}
+
+.img-escritorio{
+padding-right: 20px;
 }
