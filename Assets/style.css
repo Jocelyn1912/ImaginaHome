@@ -263,7 +263,7 @@ text-align: center!important;
   height: 100%;
   top: 0;
   left: 0;
-  padding: 85px 50px 15px 100px;
+  padding: 110px 50px 15px 100px;
   /*Centrar*/
   display: flex;
   /*Posisionando textos en columnas*/
@@ -342,6 +342,7 @@ color:#00a4e2!important;
   color:#2B59A4!important;
   border-bottom: 2px solid#2B59A4;
 font-size:23px;
+text-align: left;
 }
 .contenedoresComoParticipar a{
 color:#00a4e2!important;
@@ -757,12 +758,11 @@ margin-bottom: 25px;
 
 @media (min-width: 750px) {
   #menuCelular{
-  
-}
-
-.img-celular{
-display:none;
-}
+    
+  }
+  .img-celular{
+    display:none;
+  }
 }
 
 .img-escritorio{
